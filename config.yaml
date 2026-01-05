@@ -1,0 +1,28 @@
+# Orbit Configuration
+
+# Model Settings
+model:
+  path: "models/qwen2.5-coder-7b-instruct-q4_k_m.gguf"
+  name: "Qwen2.5-Coder-7B"
+  
+# Performance Settings
+performance:
+  n_ctx: 8192              # Context window size
+  n_gpu_layers: 35         # GPU layers (adjust for your RTX 3060)
+  n_threads: 6             # CPU threads
+  n_batch: 512             # Batch size for prompt processing
+  
+# Generation Settings
+generation:
+  temperature: 0.7         # Creativity (0.0 = deterministic, 1.0 = creative)
+  max_tokens: 4096         # Max response length
+  top_p: 0.95             # Nucleus sampling
+  top_k: 40               # Top-k sampling
+  repeat_penalty: 1.1     # Prevent repetition
+
+# Context Settings
+context:
+  load_system: true        # Load system.txt
+  load_project: true       # Load project.txt
+  load_conventions: true   # Load conventions.txt
+  max_history: 8          # Keep last N messages in conversation

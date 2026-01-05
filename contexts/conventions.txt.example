@@ -1,0 +1,45 @@
+# CODING CONVENTIONS
+
+Code Style:
+- Use type hints everywhere
+- Write docstrings for all public functions and classes
+- Follow PEP 8 style guide
+- Max line length: 100 characters
+
+Naming Conventions:
+- Classes: PascalCase
+- Functions/Variables: snake_case
+- Constants: UPPER_SNAKE_CASE
+- Private methods: _leading_underscore
+
+Best Practices:
+- Prefer composition over inheritance
+- Write unit tests for all business logic
+- Use meaningful variable names
+- Keep functions small and focused (max 50 lines)
+- Handle errors explicitly
+
+Comments:
+- Explain WHY, not WHAT
+- Document complex algorithms
+- Add TODOs for future improvements
+
+Testing:
+- Write unit tests for all new features
+- Aim for 80%+ code coverage
+- Use pytest for testing
+
+Documentation:
+- Use Google-style docstrings
+- Document all public APIs
+- Include usage examples
+
+Error Handling:
+- Use custom exceptions for domain errors
+- Always log errors with context
+- Return meaningful error messages
+
+Git Commits:
+- Use conventional commits format
+- Write clear, descriptive commit messages
+- Keep commits small and focused
