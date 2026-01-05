@@ -1,5 +1,0 @@
-llama-cpp-python
-rich
-prompt-toolkit
-pyyaml
-gradio
