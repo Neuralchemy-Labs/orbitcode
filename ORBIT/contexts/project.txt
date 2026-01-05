@@ -1,0 +1,12 @@
+# PROJECT INFORMATION
+
+Project Name: [pytorch neural network]
+
+Tech Stack:
+- Language: python 3.11+
+= framework: pytorch
+
+Architecture:
+- [simple ANN]
+
+
