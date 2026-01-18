@@ -1,5 +1,34 @@
-# 🌍 Orbit - Offline Coding Assistant
+# OrbitCode
 
+⚠️ **EXPERIMENTAL - Work in Progress**
+
+AI coding assistant experiment using open-source models.
+
+**Status:** Early development • Exploring viability • Not production-ready
+
+## Concept
+
+Unlimited AI coding assistance using local/open-source models:
+- No API costs
+- Privacy-first
+- Customizable
+
+## Current State
+
+~50% complete. Exploring whether small models (14B) can provide useful coding assistance.
+
+**Known limitations:**
+- Basic functionality only
+- Limited model performance
+- Needs significant polish
+
+## Why This Exists
+
+Experimenting with feasibility of cost-free AI coding tools. May continue development based on results.
+
+---
+
+**This is a learning project in Neural Alchemy Labs.**
 **Context-aware coding with full privacy. Your code, your machine, your control.**
 
 > ℹ️ **Note**  
@@ -500,3 +529,4 @@ MIT License - Use freely, modify as needed.
 **Built for developers who value privacy, control, and consistent code generation.**
 
 ⭐ **Star this repo if Orbit helps your workflow!**
+
